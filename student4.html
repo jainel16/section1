@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FOC - Cache Memory</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    header ul {
+      list-style: none;
+      padding: 10px;
+      margin: 0;
+      background: #ddd;
+      text-align: left;
+    }
+
+    header ul li {
+      display: inline-block;
+      margin-left: 10px;
+    }
+
+    header ul li a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+
+    h2 {
+      margin-top: 15px;
+    }
+
+    #myImage {
+      width: 650px;
+      border: 1px solid #ccc;
+      background: white;
+      padding: 5px;
+    }
+
+    .btn-box {
+      margin-top: 20px;
+    }
+
+    .step-btn {
+      padding: 6px 12px;
+      margin: 3px;
+      background: #e0e0e0;
+      border: 1px solid #aaa;
+      cursor: pointer;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    .step-btn:hover {
+      background: #d0d0d0;
+    }
+
+    .steps-text {
+      width: 80%;
+      margin: auto;
+      text-align: left;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 10px;
+      background: #ccc;
+    }
+  </style>
+</head>
+<body>
+
+
+<h2>Java Script</h2>
+<p>CACHE MEMORY</p>
+
+<img id="myImage" src="cachememory0 (4).png" />
+
+<div class="btn-box">
+
+<button class="step-btn" onclick="document.getElementById('myImage').src='cachememory0 (4).png'">Step 0</button>
+<button class="step-btn" onclick="document.getElementById('myImage').src='cachememory1.png'">Step 1</button>
+<button class="step-btn" onclick="document.getElementById('myImage').src='cachememory2.png'">Step 2</button>
+<button class="step-btn" onclick="document.getElementById('myImage').src='cachememory3.png'">Step 3</button>
+<button class="step-btn" onclick="document.getElementById('myImage').src='cachememory4.png'">Step 4</button>
+<button class="step-btn" onclick="document.getElementById('myImage').src='cachememory5.png'">Step 5</button>
+<button class="step-btn" onclick="document.getElementById('myImage').src='cachememory6.png'">Step 6</button>
+<button class="step-btn" onclick="document.getElementById('myImage').src='cachememory7.png'">Step 7</button>
+<button class="step-btn" onclick="document.getElementById('myImage').src='cachememory8.png'">Step 8</button>
+<button class="step-btn" onclick="document.getElementById('myImage').src='cachememory9.png'">Step 9</button>
+</div>
+
+
+<hr style="width:0%">
+
+<div class="steps-text">
+  <h3>Step 0: ____________________________________________</h3>
+  <h3>Step 1: Data requested will first enter the CPU.</h3>
+  <h3>Step 2: The CPU checks if it already has the requested data.</h3>
+  <h3>Step 3: Cache informs the CPU the data is not stored.</h3>
+  <h3>Step 4: CPU sends request to RAM to get the data.</h3>
+  <h3>Step 5: If RAM does not have it, data is fetched from HDD.</h3>
+  <h3>Step 6: HDD sends data to CPU in fragments via RAM.</h3>
+  <h3>Step 7: Cache reads remaining fragments.</h3>
+  <h3>Step 8: Cache sends fragments to CPU.</h3>
+  <h3>Step 9: CPU completes the process and delivers requested data.</h3>
+</div>
+
+<hr style="width:80%">
+
+<footer>
+  <p>@ Powered by Jaiden</p>
+</footer>
+
+</body>
+</html>
